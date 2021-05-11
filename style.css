@@ -3,7 +3,7 @@
     margin: 0px;
 }
 #one{
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(./images/t2.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(https://raw.githubusercontent.com/jaanvinambiar/Parallax-Website/main/t2.jpg);
     background-size: cover;
     min-height: 500px;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
     padding: 10px 10px;
 }
 #four{
-    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(./images/t2.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(https://raw.githubusercontent.com/jaanvinambiar/Parallax-Website/main/t2.jpg);
     background-size: cover;
     min-height: 500px;
     background-position: center;
@@ -48,7 +48,7 @@
     font-size: 30px;
 }
 #two{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/img2.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/jaanvinambiar/Parallax-Website/main/img2.jpg);
     height: 300px;   
     background-size: cover;
     background-position: center;  
@@ -83,7 +83,7 @@
     font-size: 30px;
 }
 #three{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/img1.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://raw.githubusercontent.com/jaanvinambiar/Parallax-Website/main/img1.jpeg);
     height: 300px;   
     background-size: cover;
     background-position: center;  
