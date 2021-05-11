@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#one{
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(./images/t2.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.one{
+    margin: 300px 200px 450px 450px;
+    font-size: 40px;
+    color:white;
+    background-color: #242425;
+    border: 0px;
+    padding: 10px 10px;
+}
+#four{
+    background: linear-gradient(rgba(0,0,0, 0.6), rgba(255,255,255, 0.4)),url(./images/t2.jpg);
+    background-size: cover;
+    min-height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.four{
+    margin: 450px 200px 450px 500px;
+    font-size: 40px;
+    color:white;
+    background-color: #242425;
+    border: 0px;
+    padding: 10px 10px;
+}
+#text1{
+    background-color: rgb(233, 233, 231);
+}
+.one-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 60px 60px;
+    color: #58585a;
+}
+.one-text h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#two{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/img2.jpg);
+    height: 300px;   
+    background-size: cover;
+    background-position: center;  
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.two-img{
+    color: white;
+    text-align: center;
+}
+.two{
+    margin: 125px 200px 300px 250px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#text2{
+    background-color: black;
+}
+.two-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 60px 60px;
+    color: white;
+}
+.two-text h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+#three{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(./images/img1.jpeg);
+    height: 300px;   
+    background-size: cover;
+    background-position: center;  
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+}
+.three-img{
+    color: white;
+    text-align: center;
+}
+.three{
+    margin: 125px 200px 300px 250px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#text3{
+    background-color: black;
+}
+.three-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 60px 60px;
+    color: white;
+}
+.three-text h4{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1025px){
+    .one-text h4, .two-text h4, .three-text h4{
+        font-size: 35px;
+    }
+    #one{
+        width: 1650px;
+    }
+    .one{
+        width: 500px;
+        align-items: center;
+        margin-left: 540px;
+        margin-top: 350px;
+        font-size: 45px;
+    }
+    #text1{
+        width: 1650px;
+    }
+    .one-text{
+        font-size: 30px;
+    }
+    #two{
+        width: 1650px;
+    }
+    #text2{
+        width: 1650px;
+    }
+    .two-text{
+        font-size: 30px;
+    }
+    #three{
+        width: 1650px;
+    }
+    #text3{
+        width: 1650px;
+    }
+    .three-text{
+        font-size: 30px;
+    }
+    #four{
+        width: 1650px;
+    }
+    .four{
+        width: 500px;
+        align-items: center;
+        margin-left: 540px;
+        margin-top: 350px;
+    }
+}
+@media screen and (max-width:426px){
+    .one-text h4, .two-text h4, .three-text h4{
+        font-size: 55px;
+    }
+    #one{
+        width: 1650px;
+    }
+    .one{
+        width: 700px;
+        align-items: center;
+        margin-left: 540px;
+        margin-top: 350px;
+        font-size: 60px;
+    }
+    #text1{
+        width: 1650px;
+    }
+    .one-text{
+        font-size: 45px;
+    }
+    #two{
+        width: 1650px;
+        height: 400px;
+    }
+    #text2{
+        width: 1650px;
+    }
+    .two-text{
+        font-size: 45px;
+    }
+    .two, .three{
+        margin-top: 220px;
+        font-size: 40px;
+    }
+    #three{
+        width: 1650px;
+        height: 400px;
+    }
+    #text3{
+        width: 1650px;
+    }
+    .three-text{
+        font-size: 45px;
+    }
+    #four{
+        width: 1650px;
+    }
+    .four{
+        width: 500px;
+        align-items: center;
+        margin-left: 540px;
+        margin-top: 350px;
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:380px){
+    .one-text h4, .two-text h4, .three-text h4{
+        font-size: 60px;
+    }
+    #one{
+        width: 1500px;
+    }
+    .one{
+        width: 700px;
+        align-items: center;
+        margin-left: 430px;
+        margin-top: 350px;
+        font-size: 60px;
+    }
+    #text1{
+        width: 1500px;
+    }
+    .one-text{
+        font-size: 50px;
+    }
+    #two{
+        width: 1500px;
+        height: 400px;
+    }
+    #text2{
+        width: 1500px;
+    }
+    .two-text{
+        font-size: 50px;
+    }
+    .two, .three{
+        margin-top: 200px;
+        font-size: 45px;
+    }
+    #three{
+        width: 1500px;
+        height: 400px;
+    }
+    #text3{
+        width: 1500px;
+    }
+    .three-text{
+        font-size: 50px;
+    }
+    #four{
+        width: 1500px;
+    }
+    .four{
+        width: 500px;
+        align-items: center;
+        margin-left: 510px;
+        margin-top: 350px;
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:325px){
+    .one-text h4, .two-text h4, .three-text h4{
+        font-size: 55px;
+    }
+    #one{
+        width: 1290px;
+    }
+    .one{
+        width: 700px;
+        align-items: center;
+        margin-left: 300px;
+        margin-top: 350px;
+        font-size: 60px;
+    }
+    #text1{
+        width: 1290px;
+    }
+    .one-text{
+        font-size: 45px;
+    }
+    #two{
+        width: 1290px;
+        height: 400px;
+    }
+    #text2{
+        width: 1290px;
+    }
+    .two-text{
+        font-size: 45px;
+    }
+    .two, .three{
+        margin-top: 220px;
+        font-size: 40px;
+    }
+    #three{
+        width: 1290px;
+        height: 400px;
+    }
+    #text3{
+        width: 1290px;
+    }
+    .three-text{
+        font-size: 45px;
+    }
+    #four{
+        width: 1290px;
+    }
+    .four{
+        width: 500px;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: 350px;
+        font-size: 55px;
+    }
+}
